@@ -105,7 +105,7 @@ module.exports = options => {
           if (!isEmpty(error)) {
             errors[[options.fields[index]]] = [{
               keyword: 'unique',
-              message: util.format('%s already in use.', options.fields[index])
+              message: util.format('%s ya esta en uso.', options.fields[index])
             }];
           }
 
